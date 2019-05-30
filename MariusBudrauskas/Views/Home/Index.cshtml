@@ -1,0 +1,18 @@
+﻿@model MariusBudrauskas.Models.Score
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<table class="table table-bordered table-responsive table-hover">
+<tr>
+    <th>Nickname</th>
+    <th>Score</th>
+</tr>
+@foreach (var d in ViewBag.Scores)
+{
+    <tr>
+    <td> @d.Nickname </td>
+    <td> @d.Point </td>
+    </tr >
+}
+</table>
