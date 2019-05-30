@@ -78,7 +78,7 @@ namespace MariusBudrauskas.Controllers
 
         private void TasksList()
         {
-            ViewBag.Message = "Attention! Solution is checked only with PYTHON compiler!";
+            ViewBag.Message = "Attention! Solution is checked only with PHP compiler!";
 
             var taskList = new List<TaskClass>()
             {
